@@ -1,0 +1,15 @@
+C:/Users/XonS/desktop/friend_letter/bin/Debug/netcoreapp1.1/friend_letter.deps.json
+C:/Users/XonS/desktop/friend_letter/bin/Debug/netcoreapp1.1/friend_letter.runtimeconfig.json
+C:/Users/XonS/desktop/friend_letter/bin/Debug/netcoreapp1.1/friend_letter.runtimeconfig.dev.json
+C:/Users/XonS/desktop/friend_letter/bin/Debug/netcoreapp1.1/friend_letter.dll
+C:/Users/XonS/desktop/friend_letter/bin/Debug/netcoreapp1.1/friend_letter.pdb
+C:/Users/XonS/desktop/friend_letter/obj/Debug/netcoreapp1.1/friend_letter.csproj.CoreCompileInputs.cache
+C:/Users/XonS/desktop/friend_letter/obj/Debug/netcoreapp1.1/friend_letter.AssemblyInfo.cs
+C:/Users/XonS/desktop/friend_letter/obj/Debug/netcoreapp1.1/friend_letter.dll
+C:/Users/XonS/desktop/friend_letter/obj/Debug/netcoreapp1.1/friend_letter.pdb
+/Users/Guest/Desktop/todolist/bin/Debug/netcoreapp1.1/friend_letter.deps.json
+/Users/Guest/Desktop/todolist/bin/Debug/netcoreapp1.1/friend_letter.runtimeconfig.json
+/Users/Guest/Desktop/todolist/bin/Debug/netcoreapp1.1/friend_letter.runtimeconfig.dev.json
+/Users/Guest/Desktop/todolist/obj/Debug/netcoreapp1.1/friend_letter.AssemblyInfo.cs
+/Users/Guest/Desktop/todolist/obj/Debug/netcoreapp1.1/friend_letter.dll
+/Users/Guest/Desktop/todolist/obj/Debug/netcoreapp1.1/friend_letter.pdb
