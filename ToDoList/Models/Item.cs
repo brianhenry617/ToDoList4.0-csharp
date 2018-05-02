@@ -25,9 +25,34 @@ namespace ToDoList.Models
     {
       _description = newDescription;
     }
+    // public static List<Item> GetAll()
+    // {
+    //   return _instances;
+    // }
+
+    // New code for list item because the application now includes a database
+
     public static List<Item> GetAll()
     {
-      return _instances;
+      List<Item> all Items = new List <Item> {};
+      MySqlConnection conn = DB.Connection();
+      conn.Open();
+      MySqlCommand cmd = conn.CreateCommand() as MySqlCommand;
+      cmd.CommandText = @"SELECT * FROM items;";
+      MySqlDataReader rdr = cmd.ExecuteReader() as MySqlDataReader;
+      while (rdr.Read())
+      {
+        int itemID = rdr.GetInt32(0);
+        string itemDescription = rdr.GetString(1);
+        Item newItem = newItem(itemDescription, itemID);
+        allItems.Add(newItem);
+      }
+      conn.Close();
+      if(conn != null)
+      {
+        conn.Dispose();
+      }
+      return allItems;
     }
     public void Save()
     {
